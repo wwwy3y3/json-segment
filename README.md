@@ -1,19 +1,19 @@
-# csv-segment
+# json-segment
 
-Single csv file into segments (json format).
+Single json file into segments (json format).
 
 ## Install
 
 ```
-  npm install csv-segment
+  npm install json-segment
 ```
 
 ## Usage
 
 ```javascript
-	var csv_segment = require('csv_segment');
+	var json_segment = require('json_segment');
 
-	csv_segment('test/data/gender.csv', 10, function(err, result) {
+	csv_segment('test/data/gender.json', 10, function(err, result) {
 		if(err) {
 			throw Error(err);
 		}else {

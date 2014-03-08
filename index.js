@@ -1,3 +1,3 @@
-var csv_seg = require('./lib');
+var json_seg = require('./lib');
 
-module.exports = csv_seg;
+module.exports = json_seg;
