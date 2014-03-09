@@ -27,7 +27,7 @@ If the second argument is a number, this will seperate the files into the number
 		if(err) {
 			throw Error(err);
 		}else {
-			// an json array seperate csv to 10 segments
+			// an json array seperate to 10 segments
 			console.log(result);
 		}
 	})
@@ -45,7 +45,7 @@ If the second argument is a string, it is defined to seperate the data by using 
 		if(err) {
 			throw Error(err);
 		}else {
-			// an json array seperate csv to 10 segments
+			// an json array seperate to segments by key-value
 			console.log(result);
 		}
 	})
