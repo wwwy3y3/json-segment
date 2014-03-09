@@ -1,5 +1,5 @@
 {
-  "name": "json_segment",
+  "name": "json-segment",
   "version": "0.1.1",
   "description": "seperate json to segments",
   "main": "index.js",
