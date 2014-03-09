@@ -23,7 +23,7 @@ If the second argument is a number, this will seperate the files into the number
 ```javascript
 	var json_segment = require('json_segment');
 
-	csv_segment('test/data/gender.json', 10, function(err, result) {
+	json_segment('test/data/gender.json', 10, function(err, result) {
 		if(err) {
 			throw Error(err);
 		}else {
@@ -41,7 +41,7 @@ If the second argument is a string, it is defined to seperate the data by using 
 ```javascript
 	var json_segment = require('json_segment');
 
-	csv_segment('test/data/gender.json', 'color', function(err, result) {
+	json_segment('test/data/gender.json', 'color', function(err, result) {
 		if(err) {
 			throw Error(err);
 		}else {
