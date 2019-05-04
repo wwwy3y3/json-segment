@@ -11,14 +11,14 @@ Single json file into segments (json format).
 ## API
 
 - first: json file resource
-- second: [number or string] seperate rules
+- second: [number or string] separate rules
 - callback: callback function
 
 ## Usage
 
-#### Seperate by number
+#### Separate by number
 
-If the second argument is a number, this will seperate the files into the number given. In the following exmaple the file is seperate into 10 segments.
+If the second argument is a number, this will separate the files into the number given. In the following example the file is separate into 10 segments.
 
 ```javascript
 	var json_segment = require('json_segment');
@@ -34,9 +34,9 @@ If the second argument is a number, this will seperate the files into the number
 	
 ```
 
-#### Seperate by key-value
+#### Separate by key-value
 
-If the second argument is a string, it is defined to seperate the data by using the key-value, the same value in the same key, will seperate into the same json array in the output.
+If the second argument is a string, it is defined to separate the data by using the key-value, the same value in the same key, will separate into the same json array in the output.
 
 ```javascript
 	var json_segment = require('json_segment');
